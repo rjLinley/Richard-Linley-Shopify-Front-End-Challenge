@@ -1,0 +1,38 @@
+{
+  "name": "richard-linley-shopify-front-end-challenge",
+  "version": "1.0.0",
+  "description": "Richard's Shopify Internship Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server",
+    "watch": "webpack -w",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjLinley/Richard-Linley-Shopify-Front-End-Challenge.git"
+  },
+  "keywords": [
+    "shopify"
+  ],
+  "author": "Richard Linley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjLinley/Richard-Linley-Shopify-Front-End-Challenge/issues"
+  },
+  "homepage": "https://github.com/rjLinley/Richard-Linley-Shopify-Front-End-Challenge#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "axios": "^0.27.2",
+    "babel-loader": "^8.2.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
